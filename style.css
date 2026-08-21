@@ -741,6 +741,21 @@ body.locked {
   width: 100%;
 }
 
+.bismillah-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.bismillah-img {
+  max-width: 340px;
+  width: 85%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
 .bismillah-text {
   font-family: 'Traditional Arabic', 'Amiri', serif;
   font-size: clamp(1.8rem, 3.5vw, 2.5rem);
