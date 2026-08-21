@@ -857,18 +857,45 @@ body.locked {
 }
 
 .hero-date-day {
-  font-family: var(--font-serif-heading);
-  font-size: 1.3rem;
-  letter-spacing: 3px;
+  font-family: var(--font-sans-meta);
+  font-size: 1rem;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--text-primary);
+  color: var(--gold-dark);
+  font-weight: 600;
+  margin-bottom: 4px;
 }
 
-.hero-date-full {
+.hero-date-month-year {
   font-family: var(--font-sans-meta);
-  font-size: 0.82rem;
+  font-size: 1rem;
   letter-spacing: 2px;
-  color: var(--text-muted);
+  text-transform: uppercase;
+  color: var(--gold-dark);
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.hero-date-time {
+  font-family: var(--font-sans-meta);
+  font-size: 0.85rem;
+  letter-spacing: 1.5px;
+  color: var(--gold-dark);
+  font-weight: 500;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.hero-date-loc {
+  font-family: var(--font-sans-meta);
+  font-size: 0.85rem;
+  letter-spacing: 1.5px;
+  color: var(--gold-dark);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
 }
 
 .hero-buttons-group {
