@@ -746,11 +746,13 @@ body.locked {
   justify-content: center;
   align-items: center;
   margin-bottom: 25px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .bismillah-img {
-  max-width: 340px;
-  width: 85%;
+  max-width: 260px;
+  width: 75%;
   height: auto;
   object-fit: contain;
   display: block;
