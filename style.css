@@ -896,6 +896,7 @@ body.locked {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .hero-buttons-group {
